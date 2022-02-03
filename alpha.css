@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: bisque;
+}
+nav {
+  font-family: "Oswald", sans-serif;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  height: 80px;
+  background-color: black;
+  color: white;
+}
+nav ul li {
+  padding: 0px 13px;
+}
+.logo img {
+  width: 70px;
+  padding: 0px 10px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.4rem;
+}
+
+.container {
+  min-height: 70vh;
+  background-color: black;
+  color: white;
+  font-family: "Varela Round", sans-serif;
+  display: flex;
+  margin: 23px auto;
+  width: 70%;
+  border-radius: 12px;
+  padding: 25px;
+  background-image: url("https://images.pexels.com/photos/1735658/pexels-photo-1735658.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.songBottom {
+  position: sticky;
+  height: 110px;
+  background-color: black;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+}
+#my-update-bar {
+  width: 80vw;
+  cursor: pointer;
+}
+.icons {
+  margin-top: 15px;
+}
+.icons i {
+  cursor: pointer;
+}
+.songItem {
+  height: 50px;
+  display: flex;
+  background-color: white;
+  color: black;
+  margin: 12px 0px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 25px;
+}
+.songItem img {
+  width: 63px;
+  margin: 0px 19px;
+  border-radius: 25px;
+}
+.timeStamp {
+  margin: 0px 19px;
+}
+.timeStamp i {
+  padding: 0px 7px;
+  cursor: pointer;
+}
+.song-Item-container {
+  margin-top: 75px;
+}
+.songInfo {
+  position: absolute;
+  left: 10vw;
+  display: flex;
+  align-items: center;
+  font-family: "Varela Round", sans-serif;
+}
+.songInfo img {
+  opacity: 0;
+  transition: opacity 0.4s ease-in;
+}
